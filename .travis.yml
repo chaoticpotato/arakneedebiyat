@@ -1,0 +1,2 @@
+after_success:
+    "curl --ftp-create-dirs -T uploadfilename -u $ftp_user:$ftp_password ftp://arakneedebiyat.com/"
