@@ -1,0 +1,19 @@
+{
+  "name": "arakneedebiyat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 0 && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaoticpotato/arakneedebiyat.git"
+  },
+  "author": "omer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chaoticpotato/arakneedebiyat/issues"
+  },
+  "homepage": "https://github.com/chaoticpotato/arakneedebiyat#readme"
+}
