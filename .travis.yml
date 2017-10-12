@@ -1,4 +1,4 @@
 language: node_js
 script: npm test
 after_success:
-    "find ./publish -type f -exec curl -u $ftp_user:$ftp_password --ftp-create-dirs -T {} ftp://arakneedebiyat.com/{} \\;"
+    "find ./publish/ -type f -exec curl -u $ftp_user:$ftp_password --ftp-create-dirs -T {} ftp://arakneedebiyat.com/{} \\;"
