@@ -1,4 +1,4 @@
 language: node_js
 script: npm test
 after_success:
-    "curl --ftp-create-dirs -T uploadfilename -u $ftp_user:$ftp_password ftp://arakneedebiyat.com/"
+    "curl --ftp-create-dirs -T * -u $ftp_user:$ftp_password ftp://arakneedebiyat.com/"
