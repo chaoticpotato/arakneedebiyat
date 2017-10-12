@@ -1,5 +1,5 @@
 language: node_js
 node_js:
-    -"node"
+    -"6"
 after_success:
     "curl --ftp-create-dirs -T uploadfilename -u $ftp_user:$ftp_password ftp://arakneedebiyat.com/"
